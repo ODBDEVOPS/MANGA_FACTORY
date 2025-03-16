@@ -1,4 +1,57 @@
 # MANGA_FACTORY
+Bien sûr ! Voici la version mise à jour du prompt sans la colonne "Description" :
+
+---
+
+**Prompt pour Perplexity.ai :**
+
+Je souhaite que vous recherchiez ou interprétiez les informations nécessaires pour remplir un modèle Django représentant un personnage de manga. Voici les champs à remplir, organisés sous forme de tableau. Pour chaque champ, fournissez une estimation ou une interprétation basée sur les informations disponibles. Si certaines informations ne sont pas disponibles, indiquez "N/A".
+
+| Champ                 | Exemple de valeur ou estimation |
+|-----------------------|---------------------------------|
+| `name`                | "Naruto Uzumaki"               |
+| `alternate_title`     | "Child of the Prophecy"        |
+| `manga`               | "Naruto"                       |
+| `Voix_japonaise`      | "Junko Takeuchi"               |
+| `voix_française`      | "Céline Melloul"               |
+| `race`                | "Humain"                       |
+| `Rank`                | "Principal"                    |
+| `Carac`               | "Déterminé, courageux"         |
+| `Apparence`           | "Cheveux blonds, yeux bleus..."|
+| `Age`                 | 17                             |
+| `Age_estime`          | "16-18 ans"                    |
+| `Anniversaire`        | "10 octobre"                   |
+| `Sexe`                | "M"                            |
+| `Taille`              | "180 cm"                       |
+| `Poids`               | "60 kg"                        |
+| `Signe`               | "Balance"                      |
+| `strength`            | 85                             |
+| `agility`             | 90                             |
+| `intelligence`        | 75                             |
+| `Type_Magie`          | "Chakra"                       |
+| `image`               | "N/A"                          |
+| `Role`                | "Protagoniste"                 |
+| `Interprétation`      | "Un héros déterminé..."        |
+| `Personnalité`        | "Optimiste, têtu"              |
+| `Objectifs`           | "Devenir Hokage"               |
+| `Inspirations`        | "Son père, Minato"             |
+| `Evolution`           | "Passe de cancre à héros..."   |
+| `relationships`       | "Ami de Sasuke, rival de Sakura"|
+| `abilities`           | "Rasengan, Multi-Clonage"      |
+| `is_complete`         | "False"                        |
+| `updated_at`          | "2023-10-05"                   |
+
+**Instructions supplémentaires :**
+- Si certaines informations ne sont pas disponibles, laissez la cellule vide ou indiquez "N/A".
+- Pour les champs comme `strength`, `agility`, et `intelligence`, fournissez une estimation sur une échelle de 0 à 100.
+- Pour les relations (`relationships`), listez les personnages clés et la nature de leur relation.
+- Pour les capacités (`abilities`), listez les principales compétences ou pouvoirs du personnage.
+
+---
+
+Ce prompt est maintenant plus concis et se concentre uniquement sur les champs nécessaires. Vous pouvez l'utiliser pour guider Perplexity.ai dans la recherche ou l'interprétation des données.
+
+# 2
 Voici un prompt structuré pour Perplexity.ai afin de rechercher ou d'interpréter les informations nécessaires pour remplir les modèles Django liés à `MediaAdaptation` et ses classes associées. Le tableau est organisé pour chaque modèle, en omettant les colonnes de description comme demandé.
 
 ---
